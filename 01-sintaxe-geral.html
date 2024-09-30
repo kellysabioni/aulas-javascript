@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sintaxe Geral JS</title>
+
+</head>
+<body>
+<h1>Começando com JavaScript</h1>
+<hr>
+
+<script>
+// CTRL; (comentário de linha única)
+/* SHIFT ALT A 
+(comentário em várias linhas) */
+
+// Comando de saída (útil para testes básicos)
+console.log("Hello Word!");
+
+/* Manipulação de dados na MEMÓRIA 
+
+Criação de espaço na memória RAM do computador através VARIÁVEIS e/ou CONSTANTES.
+
+Variável: declaradas com a palavra-chave let
+Constante: declaradas com a palavra-chave: const*/
+
+// Declaração (criando na memória)
+let ano = 2024;
+const aluno = "Kelly";
+
+//Saída (acessando/exibindo/usando no console)
+console.log (ano);
+console.log (aluno);
+
+/* Declarando uma relação de variáveis: Elas iniciam sem valor atribuído, portanto, são consideradas indefinidas (undefined) */
+let teste1, teste2, teste3;
+
+console.log(teste1);
+
+/* Atribuindo valores as variáveis */
+
+teste1 = "Exemplo 1"
+
+console.log(teste1);
+
+let valor1 = 10;
+let valor2 = 5;
+let valor3 = 1200.55;
+
+/* Operações básicas */
+
+let soma = valor1 + valor2;
+let subtracao = valor1 - valor2;
+let multiplicacao = valor1 * valor2;
+let divisao = valor1 / valor2;
+
+//Exemplo de uso de função matemática (FUNÇÃO MATH)
+let resultado = Math.sqrt (soma)
+console.log(resultado);
+
+
+/* Saída de dados personalizado 
+Frase para exemplo
+Olá! Me chamo Kelly e não vejo a hora de acabar o ano de 2024.*/
+
+// Forma 1: CONCATENAÇÃO (tradicional, antiga)
+console.log("Olá! Me chamo "+aluno+" e não vejo a hora de acabar o ano de "+ano+". (forma antiga)");
+
+console.log("Soma: "+soma);
+console.log("Subtração: "+subtracao);
+console.log("Multiplicação: "+multiplicacao);
+console.log("Divisão: "+divisao);
+
+
+// Forma 2: TEMPLATE LITERAL/STRING (moderna)
+//Obrigatório uso da `CRASE` e chama a variável ou constante com ** ${} ** 
+console.log(`Olá! Me chamo ${aluno} e não vejo a hora de acabar o ano de ${ano}. (forma moderna)`);
+
+console.log(`Soma: ${soma}`);
+console.log(`Subtração: ${subtracao}`);
+console.log(`Multiplicação: ${multiplicacao}`);
+console.log(`Divisão: ${divisao}`);
+
+
+
+
+
+
+</script>
+
+</body>
+
+</html>
