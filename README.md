@@ -45,3 +45,13 @@ Na prática, um array é uma lista de dados sequenciais, cada dado é armazenado
 Objetos também são estruturas de dados só que **não-indexados**, ou seja, o acesso aos dados é feito de forma diferente do que vimos no arrays. No objeto, acessamos através de **propriedades** e **valores** declarados dentro do objeto.
 
 Normalmente, o objeto é programado de acordo com algum contexto relacionado ao mundo real.
+
+## Funções de acesso e manipulação do DOM 
+
+`querySelector()`    
+>>> Função para selecionar **UM ÚNICO** elemento na página do (DOM).
+
+`querySelectorAll()` 
+>>> Função para selecionar **VÁRIOS** elementos na página do (DOM).
+
+Nos dois casos, a seleção é feita usando **seletores comuns** ao que fazemos no CSS.
