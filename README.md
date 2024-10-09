@@ -55,3 +55,10 @@ Normalmente, o objeto é programado de acordo com algum contexto relacionado ao 
 >>> Função para selecionar **VÁRIOS** elementos na página do (DOM).
 
 Nos dois casos, a seleção é feita usando **seletores comuns** ao que fazemos no CSS.
+
+
+**Obs.:** 
+- sinal `=` 
+>> uma vez é para atribuição de valor
+>> duas vezes serve para comparação de valores, não levando em consideração o tipo de dado (número ou texto)
+>> três vezes também compara valores, mas leva em consideração o tipo de dado (texto, números, etc)
